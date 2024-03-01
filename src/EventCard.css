@@ -1,0 +1,33 @@
+.event-card {
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    padding: 15px;
+    margin: 10px 5px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease;
+  }
+  
+  .event-card:hover {
+    transform: translateY(-5px);
+  }
+  
+  .event-card img {
+    width: 100%;
+    height: auto;
+    border-top-left-radius: 8px;
+    border-top-right-radius: 8px;
+  }
+  
+  .event-details {
+    margin-top: 10px;
+  }
+  
+  .event-details h2 {
+    font-size: 18px;
+    font-weight: bold;
+  }
+  
+  .event-details p {
+    margin-top: 5px;
+  }
+  
